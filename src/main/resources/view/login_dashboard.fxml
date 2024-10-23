@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginDashboardControllerForm">
+    <children>
+        <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" style="-fx-background-color: #f0f0f0;">
+            <ImageView fx:id="logoImageView" fitHeight="150" fitWidth="150">
+                <image>
+                    <Image url="@Black_and_White_Illustrative_Clothing_Store_Logo__1_-removebg-preview.png" />
+                </image>
+            </ImageView>
+
+            <Text style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Welcome to Clothyfy " />
+
+            <Button fx:id="userLoginButton" prefWidth="150" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-size: 14px;" text="User Login" />
+
+            <Button fx:id="adminLoginButton" prefWidth="150" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-font-size: 14px;" text="Admin Login" />
+
+        </VBox>
+    </children>
+</AnchorPane>
